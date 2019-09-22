@@ -1,0 +1,30 @@
+{
+  "name": "react-elems",
+  "version": "0.0.1",
+  "description": "A collection of customized React components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nauberinho/react-elems.git"
+  },
+  "author": "Niklas Nauber",
+  "license": "N/A",
+  "bugs": {
+    "url": "https://github.com/nauberinho/react-elems/issues"
+  },
+  "homepage": "https://github.com/nauberinho/react-elems#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
