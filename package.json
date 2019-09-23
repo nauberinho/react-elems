@@ -32,6 +32,7 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "pluralize": "^8.0.0"
+    "@types/styled-components": "^4.1.19",
+    "styled-components": "^4.3.2"
   }
 }
