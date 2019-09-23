@@ -23,15 +23,24 @@
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
     "@types/pluralize": "0.0.29",
     "@types/react": "^16.9.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "typescript": "^3.6.3"
+    "react-styleguidist": "^9.1.16",
+    "ts-loader": "^6.1.2",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2"
   },
   "dependencies": {
+    "@babel/preset-typescript": "^7.6.0",
     "@types/styled-components": "^4.1.19",
     "styled-components": "^4.3.2"
   }

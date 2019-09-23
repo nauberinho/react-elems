@@ -1,22 +1,48 @@
 import React, { FC } from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+import DropDown from "../src/components/DropDown";
 
-const DropDownContainer = styled.div`
-  padding: 2rem;
-  color: black;
-`;
+const animations = {
+  fadeIn: keyframes`
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }`,
+  fadeInAndExpand: keyframes`
+    0% {
+      opacity: 0;
+      max-height: 0;
+    }
+    100% {
+      opacity: 1;
+      max-height: 900px
+    }`
+};
 
-interface DropDownProps {
-  isOpen: boolean;
-  optional?: any;
-}
+const theme = {
+  colors: {
+    yellow: {
+      main: "#D5B507"
+    },
+    black: { main: "#4E4E4E" },
+    red: {
+      main: "#C70039"
+    },
+    purple: {
+      main: "#9851D4"
+    },
+    blue: {
+      main: "#5182D4"
+    },
+    green: {
+      main: "#10D775"
+    },
+    orange: {
+      main: "orange"
+    }
+  }
+};
 
-const DropDown: FC<DropDownProps> = ({ isOpen }) => (
-  <DropDownContainer>
-    {isOpen ? <span>I am open</span> : <span>Im closed</span>}
-  </DropDownContainer>
-);
-
-const DummyComponent2 = () => <div>I am a dummy react npm module</div>;
-
-export { DropDown, DummyComponent2 };
+export { DropDown, theme, animations };
