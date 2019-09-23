@@ -1,5 +1,5 @@
 module.exports = {
-  components: "src/components/**/*.tsx",
+  components: "src/**/*.{js,jsx,ts,tsx}",
   webpackConfig: {
     module: {
       rules: [

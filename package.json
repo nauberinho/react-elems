@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.6.0",
+    "@emotion/core": "^10.0.17",
     "@types/styled-components": "^4.1.19",
     "styled-components": "^4.3.2"
   }
