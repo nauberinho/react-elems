@@ -1,12 +1,10 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var pluralize = require("pluralize");
-/**
- * @Method: Returns the plural form of any noun.
- * @Param {string}
- * @Return {string}
- */
-function getPlural(str) {
-    return pluralize.plural(str);
-}
-exports.getPlural = getPlural;
+var react_1 = __importDefault(require("react"));
+var DummyComponent = function () { return react_1.default.createElement("div", null, "I am a dummy react npm module"); };
+exports.DummyComponent = DummyComponent;
+var DummyComponent2 = function () { return react_1.default.createElement("div", null, "I am a dummy react npm module"); };
+exports.DummyComponent2 = DummyComponent2;

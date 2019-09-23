@@ -1,6 +1,4 @@
-/**
- * @Method: Returns the plural form of any noun.
- * @Param {string}
- * @Return {string}
- */
-export declare function getPlural(str: any): string;
+/// <reference types="react" />
+declare const DummyComponent: () => JSX.Element;
+declare const DummyComponent2: () => JSX.Element;
+export { DummyComponent, DummyComponent2 };

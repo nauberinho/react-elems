@@ -18,10 +18,17 @@
     "url": "https://github.com/nauberinho/react-elems/issues"
   },
   "homepage": "https://github.com/nauberinho/react-elems#readme",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
   "devDependencies": {
     "@types/pluralize": "0.0.29",
+    "@types/react": "^16.9.2",
     "chai": "^4.2.0",
     "mocha": "^6.2.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "typescript": "^3.6.3"
   },
   "dependencies": {
