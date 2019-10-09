@@ -1,8 +1,8 @@
 {
   "name": "react-elems",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of customized React components",
-  "main": "dist/index.js",
+  "main": "lib/index.tsx",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
