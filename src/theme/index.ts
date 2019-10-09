@@ -43,4 +43,4 @@ const colors = {
   }
 };
 
-export { animations, colors };
+export { animations };
